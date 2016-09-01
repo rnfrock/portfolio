@@ -3,18 +3,14 @@
 <div id="myModal" class="modal" [style.display]= 'getDisplay()' >
 
   <!-- The Close Button -->
-  <span class="close" (click)="displayModal = !displayModal">&times;</span>
+  <span class="glyphicon close" (click)="displayModal = !displayModal">&times;</span>
   
-  <!--<div class= "col-md-1">-->
-  <span class= "l_arrow" (click)= "left()">&lt;</span>
-  <span class= "r_arrow" (click)= "right()">&gt;</span>
-  <!--<span class= "idx">Index = {{ modalImgIndex }}</span>-->
-  <!--</div>-->
-  <!--<div class= "col-md-8">-->
+  <!-- Left and Right Arrows -->
+  <span class= "glyphicon glyphicon-menu-left l_arrow" (click)= "left()"></span>
+  <span class="glyphicon glyphicon-menu-right r_arrow" (click)= "right()"></span>
+
   <!-- Modal Content (The Image) -->
    <span> <img class="modal-content" id="img01" [src]= 'modalImg'></span>
-  <!--</div>-->
-  <!--<div class= "col-md-1 arrow">&gt;</div>-->
 
 </div>
 

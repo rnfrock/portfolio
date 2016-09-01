@@ -62,6 +62,7 @@ h1 small {
 
 .well {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 5%;
 }
 
 .lower {
@@ -103,20 +104,8 @@ h1 small {
     /*max-width: 700px;*/
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption { 
+.modal-content { 
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -136,63 +125,52 @@ h1 small {
 /* The Close Button */
 .close {
     position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
+    top: 20px;
+    right: 40px;
     transition: 0.3s;
+    font-size: 60px;
 }
 
 .close:hover,
 .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* The arrows */
-.idx {
-    position: absolute;
-    top: 400px;
-    /*right: 35px;*/
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+    color: #fff;
+    opacity: 100%;
 }
 
 /* The arrows */
 .r_arrow {
-    position: absolute;
-    top: 200px;
-    right: 40px;
-    color: #f1f1f1;
+    top: 300px;
+    right: 35px;
     font-size: 40px;
-    font-weight: bold;
+    opacity: 0.5;
 }
 
-.r_arror:hover,
+.r_arrow:hover,
 .r_arrow:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
+    opacity: 0.9;
 }
 
 /* The arrows */
 .l_arrow {
-    position: absolute;
-    top: 200px;
+    top: 300px;
     left: 35px;
-    color: #f1f1f1;
     font-size: 40px;
-    font-weight: bold;
+    opacity: 0.5;
 }
 
-.l_arror:hover,
+.l_arrow:hover,
 .l_arrow:focus {
+    opacity: 0.9;
+}
+
+.glyphicon {
+    position: absolute;
     color: #bbb;
-    text-decoration: none;
+}
+
+.glyphicon:hover,
+.glyphicon:focus {
+    color: #f1f1f1;
     cursor: pointer;
 }
 
