@@ -1,0 +1,13 @@
+/* Styles for the Biography Component */
+.img-thumbnail {
+    outline-style: solid;
+    outline-color: black;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+.col-md-8 {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

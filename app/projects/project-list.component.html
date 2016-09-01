@@ -1,0 +1,17 @@
+<div class= "container">
+    <h1>{{ pageTitle }}</h1>
+  <div class= "container-fluid" *ngFor= ' let project of projects'>
+    <div class= "col-md-12 well">
+        <div class= "col-md-8">
+            <h3>{{ project.name }} <small>{{ project.date }}</small></h3>
+            <p class= "location"><i>{{ project.location }}</i></p>
+            <p>{{ project.shortDescription }}</p>
+            <button type= "button" class="btn btn-new" [routerLink]= "[ 'Detail', { name: project.name } ]">More Details &#62;</button>
+        </div>
+        <!--[routerLink]= "[ 'Detail', {name: project.name} ]"-->
+        <div class="col-md-4">
+            <img [src]= 'project.imageUrls[0]' alt= "Image of project" class= "img-responsive img-rounded" />
+        </div>
+    </div>
+  </div>
+</div>

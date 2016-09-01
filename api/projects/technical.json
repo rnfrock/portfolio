@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Guitar Chord App",
+        "date": "Fall 2016",
+        "location": "Austin, Texas",
+        "shortDescription": "In collaboration with a friend at Burkley School of Music. We are designing and creating an app to aid in learning guitar (or other musical instruments) chords.",
+        "where_why": "A friend of mine who is currently attending Berklee College of Music came to me with this app idea. I agreed to take on this project and learn more about iOS app development. I was also excited to be creating an app that would be useful for musicians.",
+        "what_how": "This is currently a work in progress using Xcode and programming in Swift.",
+        "imageUrls": [ "app/assets/images/160x120.png",
+                       "app/assets/images/160x120.png",
+                       "app/assets/images/160x120.png",
+                       "app/assets/images/160x120.png",
+                       "app/assets/images/160x120.png",
+                       "app/assets/images/160x120.png"
+                     ],
+        "mobile": true
+    },
+    
+    {
+        "name": "venDecor iOS App",
+        "date": "Spring 2016",
+        "location": "The University of Texas at Austin",
+        "shortDescription": "In an iOS development course, I worked with a partner to propose an implement an iOS app idea. We created venDecor, an app to sell furniture and other household items.",
+        "where_why": "In an iOS App Development course at UT, students were put into groups to create an iOS app throughout the semester. I was paired with another student who worked with me to create venDecor, an app for people to sell used furniture and other household items. The purpose of this app is to make it easier to get rid of stuff from your home when in the process of moving or cleaning out your house. It makes it easier for new people in the area or college students as well, when they need new furniture while moving to a new location.",
+        "what_how": "We created the app using Xcode and coding in Swift. Our back-end was hosted on Firebase. The app has a newsfeed for all of the posts that are created. Users can create an account and then explore other users' posts to find furniture. There is a camera feature so that users can take photos of what items they are wanting to sell. Also, there is a messaging feature to allow interaction with other users. Each account can be customized, allowing the user to create a username and have a profile picture. There are three list pages- one which stores the user's post, one with saved items and one where the messages can be found. At the end of the course we presented our app to the class and demonstrated a walk through of how the app works.",
+        "imageUrls": [ "app/assets/images/technical/venDecor1.jpg",
+                       "app/assets/images/technical/venDecor3.jpg",
+                       "app/assets/images/technical/venDecor5.jpg",
+                       "app/assets/images/technical/venDecor7.jpg",
+                       "app/assets/images/technical/venDecor2.jpg",
+                       "app/assets/images/technical/venDecor4.jpg",
+                       "app/assets/images/technical/venDecor6.jpg"
+                     ],
+        "mobile": true
+    },
+    
+    {
+        "name": "You Snooze, You Lose",
+        "date": "Spring 2016",
+        "location": "The University of Texas at Austin",
+        "shortDescription": "In a course focused on Principles of Interaction Design, students worked in groups to design prototypes for different topics. My group designed 'You  Snooze, You Lose', a social way of competing with your friends and learning to respond quickly to your alarm in the morings.",
+        "where_why": "In a Principles of Interaction course at UT, we learned the different principles of design and usabiltity as addressed by Don Norman and Jakob Neilsen. We examined everyday items, like doors and chairs, to software and technology, like websites and Google's Project Tango. As the final project in this course, we chose groups based around different topics. Each group devised a solution for the topic chosen and designed prototypes for that solution proposal. My group focused on the issue of waking up. We designed an app that would provide a social and competitive way to improve waking up to alarms that are set.",
+        "what_how": "Our app proposal, 'You Snooze, You Lose', has a section where different members can join a group. In this section, the group chooses a set amount of time to compete for an item they have chosen to bet on. Two of their alarms are used as part of the betting process. The alarms each person has chosen is tracked and deducts points each time the user hits snooze. There is a section that displays the user's progress and ranking amoung their friends. Xcode was used to create the mockups.",
+        "imageUrls": [ "app/assets/images/technical/snooze1.png",
+                       "app/assets/images/technical/snooze2.jpg",
+                       "app/assets/images/technical/snooze3.jpg",
+                       "app/assets/images/technical/snooze4.jpg",
+                       "app/assets/images/technical/snooze5.jpg",
+                       "app/assets/images/160x120.png" 
+                     ],
+        "mobile": true
+    },
+    
+    {
+        "name": "Bruce Pennycook Website",
+        "date": "Fall 2015",
+        "location": "The University of Texas at Austin",
+        "shortDescription": "As a Music Marketing Assistant for a music professor in the Butler School of Music, I redesigned his website to store and display his compositions. This was done independently over the course of a semester, with a few additions and adjustments over the course of the following semester.",
+        "where_why": "A music professor was looking for student employees to work for him and help promote his compositions. This role was focusing on marketing and making connections with other universities and music directors, but also presented the opportunity for me to recreate Bruce Pennycook's website. The other student employee working with me focused on revamping his social media accounts. Together we helped create a better online presence and improve the quality of how he displayed his works and involvements.",
+        "what_how": "Pennycook's old website was serviced by GoDaddy. Using FTP, I received all of his old files and began transferring them over into my updated HTML/CSS files. Most of the site is done simply with HTML/CSS, along with some JavaScript. Some plugins were used for the social icons on the homepage and then an audio library for the mp3 players within the works page.",
+        "imageUrls": [ "app/assets/images/technical/bruceWebsite.png",
+                       "app/assets/images/technical/bruceWebsite1.png",
+                       "app/assets/images/technical/bruceWebsite2.png",
+                       "app/assets/images/technical/bruceWebsite3.png",
+                       "app/assets/images/technical/bruceWebsite4.png" 
+                     ],
+        "mobile": false
+    },
+    
+    {
+        "name": "Keynote Monitoring Tool Prototype",
+        "date": "Summer 2015",
+        "location": "Keynote LLC, Austin, Texas",
+        "shortDescription": "During a software engineering internship with Keynote LCC, I created a prototype for internal use of th ecompany. I learned full stack with a focus on the front-end. The site was created using HTML/CSS, Javascript, PHP and MySQL.",
+        "where_why": "While working as a software engineering intern with Keynote, I was put on a project where I created a monitoring tool prototype. I had never worked with any of the languages used for this project prior to beginning the project. My boss worked with the communication between the tool and the agents we were communicating to, focusing on the functionality of the backend. I had control over the entire front end, creating designs and then implementing them and making sure the UI communicated effectively with the MySQL database. This tool was intended for internal use.",
+        "what_how": "Most of the coding was done in Notepad++. We had a WAMP server installed, which made it easy to validate the information seen on the page versus that in the database. Using HTML and CSS, tables displayed the different products or agents at different locations. Based on how the agent was functioning, the table cells would display green, red or grey to show if the product was working properly, not responding or non-existent respectively. There was a menu for navigation, directing the user to pages where they could add entries to the database or check on details of a product.",
+        "imageUrls": [ "app/assets/images/technical/keynote1.png",
+                       "app/assets/images/technical/keynote2.png",
+                       "app/assets/images/technical/keynote3.png",
+                       "app/assets/images/technical/keynote4.png",
+                       "app/assets/images/technical/keynote5.png",
+                       "app/assets/images/technical/keynote6.png",
+                       "app/assets/images/technical/keynote7.png" 
+                     ],
+        "mobile": false
+    }
+]

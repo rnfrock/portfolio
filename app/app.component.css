@@ -1,0 +1,21 @@
+/* Master Styles */
+.navbar {
+    background-color: #6D929B !important;
+    border-style: none;
+    /*background-color: #87cefa;*/
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+    color: #fefaf9;
+}
+
+a:hover {
+    color: #234567;
+}
+
+.jumbotron h1 {
+    margin-top: 20%;
+    font-size: 500%;
+}
+

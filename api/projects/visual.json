@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Go-between",
+        "date": "Spring 2016",
+        "location": "The University of Texas at Austin",
+        "shortDescription": "Music, art and dance performance as part of the 2016 Ears, Eyes and Feet production with the Theatre and Dance Department. Technology and human interaction were major focuses of this project.",
+        "where_why": "Each Spring the Theatre and Dance Department has a production called Ears, Eyes and Feet, where students from music, art and dance collaborate with each other. As part of the Bridging Disciplines Program, I was able to take courses from different colleges relating to Digital Arts and Media. In a course called Media Creation for the Live Performance, taught by Sven Ortel, I had the opportunity of being the Media Designer for one of the performances within the EEF production.",
+        "what_how": "This was my second year as part of EEF, so I wanted to experiment with different devices and their ability to allow human interaction as part of the media aspect. I programmed all of the visuals in Processing, a Java based visual production software, and used a Myo armband to create an interactive quality to the performance. The Myo armband recognizes different hand signals, movements and can track acceleration, among other data. I began by having the visuals respond to mouse inputs. Then I created different keyboard signals to hand over the control to the Myo armband and change scenes. The Myo basically hacked the mouse function and repelled different shapes on the screen. The Myo communicated with my computer using bluetooth. One dancer wore the band. We synced up the band to my computer and then I had control over the program until I signaled for her to take over during the performance.",
+        "imageUrls": [ "app/assets/images/visual/eef2016.jpg",
+                        "app/assets/images/visual/eef2016.jpg",
+                        "app/assets/images/visual/eef2016.jpg",
+                        "app/assets/images/visual/eef2016.jpg",
+                        "app/assets/images/visual/eef2016.jpg" 
+                     ],
+        "mobile": false
+    },
+    
+    {
+        "name": "Obscuridad: [darkness]",
+        "date": "Spring 2015",
+        "location": "The University of Texas at Austin",
+        "shortDescription": "Music, art and dance performance as part of the 2015 Ears, Eyes and Feet production with the Theatre and Dance Department. This project involved exploration of different visual creation software and their unique capabilities.",
+        "where_why": "Each Spring the Theatre and Dance Department has a production called Ears, Eyes and Feet, where students from music, art and dance collaborate with each other. As part of the Bridging Disciplines Program, I was able to take courses from different colleges relating to Digital Arts and Media. In a course called Media Creation for the Live Performance, taught by Sven Ortel, I had the opportunity of being the Media Designer for one of the performances within the EEF production.",
+        "what_how": "For my first year as part of EEF, I wanted to explore the ability of a bunch of the different software programs we had learned about throughout the semester. The choreographers structured the performance into three different movements, so I decided to create each movement with a different software program. The first movement was created first in Touch Designer, but then the bulk of the effects were generated in Adobe After Effects. The second movement was done entirely in Touch Designer. The final movement was done in Processing, but then reversed using Adobe After Effects. The challenge came when trying to compliment the feel of each movement, making them each feel like they were from the same realm. Most of the media appears interactive with the music portion of the piece.",
+        "imageUrls": [ "app/assets/images/visual/eef2015_2.jpg",
+                        "app/assets/images/visual/eef2015.png", 
+                        "app/assets/images/visual/eef2015_3.jpg",
+                        "app/assets/images/160x120.png",
+                        "app/assets/images/160x120.png" 
+                     ],
+        "mobile": false
+    },
+    
+    {
+        "name": "Menger Sponge",
+        "date": "Fall 2014",
+        "location": "The University of Texas at Austin",
+        "shortDescription": "In Computer Graphics, we used OpenGL and C to create 2D and 3D graphics. Many shapes are created using recursive techniques, which we used for this project. A menu is included where the user can choose how many recursions occur.",
+        "where_why": "In Computer Graphics one of our first few assignments was to explore the creation of graphics with recursions. The course was taught by Don Fussell. With the purpose of getting acquainted with OpenGL, we were given the task of creating a Menger Sponge.",
+        "what_how": "I used VirtualBox in order to code in a Linux environment. The user can access a menu to adjust lighting, number of recursions and draw the image as a wireframe. The max number of recursions is 4. Using C and OpenGL to genreate the graphics, the cube is drawn and altered depending on the number of recursions chosen. The lighting can be on or off which determines how the cube appears and if it has shadows or not.",
+        "imageUrls": [ "app/assets/images/visual/3dGasket.png",
+                        "app/assets/images/visual/mengerSponge.png",
+                        "app/assets/images/visual/mengerSponge1.png",
+                        "app/assets/images/visual/mengerSponge_wire.png",
+                        "app/assets/images/visual/mengerSponge2.png" 
+                     ],
+        "mobile": false
+    }  
+]

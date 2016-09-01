@@ -1,0 +1,48 @@
+/* Style applied to all of the Project-Lists */
+.container {
+    margin-top: 7%;
+}
+
+.container-fluid {
+    margin-top: 2%;
+}
+
+.well {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.btn-new {
+    background-color: transparent;
+    color: #234567;
+    transition: all .1s;
+    background-image: none;
+    text-shadow: none;
+    border-width: 2px;
+    border-radius: 10px;
+
+    border-style: solid;
+    border-color: #234567;
+    color: #234567;
+    
+    margin-top: 3%;
+    width: 25%;
+}
+
+.btn-new:hover{
+    color: #fff;
+    background: #234567;   
+}
+
+h1 {
+    text-shadow: 2px 2px 4px #000;
+}
+
+h3 {
+    color: #234567;
+}
+
+.location {
+    margin-bottom: 5%;
+}
+

@@ -1,0 +1,22 @@
+/* Styles for Home Component */
+
+
+.jumbotron {
+    background-color: transparent !important;
+   /* color: #234567;*/
+    color:  #fefaf9;
+    text-shadow: 2px 2px 4px #000000;
+    /*background-image: url( './app/assets/images/background.jpg' );*/ 
+}
+
+.container {
+    margin-top: 5%;
+}
+
+.col-md-4 {
+    margin-top: 15%;
+}
+
+img {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
