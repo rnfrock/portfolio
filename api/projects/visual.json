@@ -22,11 +22,10 @@
         "shortDescription": "Music, art and dance performance as part of the 2015 Ears, Eyes and Feet production with the Theatre and Dance Department. This project involved exploration of different visual creation software and their unique capabilities.",
         "where_why": "Each Spring the Theatre and Dance Department has a production called Ears, Eyes and Feet, where students from music, art and dance collaborate with each other. As part of the Bridging Disciplines Program, I was able to take courses from different colleges relating to Digital Arts and Media. In a course called Media Creation for the Live Performance, taught by Sven Ortel, I had the opportunity of being the Media Designer for one of the performances within the EEF production.",
         "what_how": "For my first year as part of EEF, I wanted to explore the ability of a bunch of the different software programs we had learned about throughout the semester. The choreographers structured the performance into three different movements, so I decided to create each movement with a different software program. The first movement was created first in Touch Designer, but then the bulk of the effects were generated in Adobe After Effects. The second movement was done entirely in Touch Designer. The final movement was done in Processing, but then reversed using Adobe After Effects. The challenge came when trying to compliment the feel of each movement, making them each feel like they were from the same realm. Most of the media appears interactive with the music portion of the piece.",
-        "imageUrls": [ "app/assets/images/visual/eef2015_2.jpg",
-                        "app/assets/images/visual/eef2015.png", 
-                        "app/assets/images/visual/eef2015_3.jpg",
-                        "app/assets/images/160x120.png",
-                        "app/assets/images/160x120.png" 
+        "imageUrls": [ "app/assets/images/visual/eef2015_3.jpg",
+                        "app/assets/images/visual/eef2015_2.jpg",
+                        "app/assets/images/visual/eef2015.png"
+                        
                      ],
         "mobile": false
     },

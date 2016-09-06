@@ -1,10 +1,12 @@
 
 <!-- The Modal -->
-<div id="myModal" class="modal" [style.display]= 'getDisplay()' >
+<div id="myModal" class="modal" [style.display]= 'getDisplay()'>
 
+
+  <span class= "modalTitle"><p>{{ modalImgIndex + 1}} of {{ numImages }}</p></span>
   <!-- The Close Button -->
   <span class="glyphicon close" (click)="displayModal = !displayModal">&times;</span>
-  
+  <!--(click)="displayModal = !displayModal"-->
   <!-- Left and Right Arrows -->
   <span class= "glyphicon glyphicon-menu-left l_arrow" (click)= "left()"></span>
   <span class="glyphicon glyphicon-menu-right r_arrow" (click)= "right()"></span>
@@ -20,27 +22,17 @@
     <h1>{{ projectName }} <small>{{ project.date }}</small><button class= "btn btn-new pull-right top-btn" (click)= 'onBack()'>&#60; Back</button></h1>
 
     <div class= "col-md-12" *ngIf= '!project.mobile'>
-        <div class= "col-md-6">
-            <img class= "img-thumbnail" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[0]" (click)= "modalImgIndex = 0" [src]='project.imageUrls[0]' alt='project.name'>
-        </div>
-        <div class= "col-md-6">
-            <div class= "col-md-6">
-                <img class= "img-thumbnail" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[1]" (click)= "modalImgIndex = 1" [src]='project.imageUrls[1]' alt='project.name'>
-            </div>
-            <div class= "col-md-6">
-                <img class= "img-thumbnail" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[2]" (click)= "modalImgIndex = 2" [src]='project.imageUrls[2]' alt='project.name'>
-            </div>
-            <div class= "col-md-6 lower">
-                <img class= "img-thumbnail" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[3]" (click)= "modalImgIndex = 3" [src]='project.imageUrls[3]' alt='project.name'>
-            </div>
-            <div class= "col-md-6 lower">
-                <img class= "img-thumbnail" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImgIndex = 4" (click)= "modalImg = project.imageUrls[4]" [src]='project.imageUrls[4]' alt='project.name'>
-            </div>
-        </div>
+            <img class= "img-thumbnail backLeftImg2" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[project.imageUrls.length - 1]" (click)= "modalImgIndex = 0" [src]='project.imageUrls[project.imageUrls.length - 1]' alt='project.name'>
+            
+            <img class= "img-thumbnail middleImg center-block" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[0]" (click)= "modalImgIndex = 0" [src]='project.imageUrls[0]' alt='project.name'>
+            
+            <img class= "img-thumbnail backRightImg2" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[1]" (click)= "modalImgIndex = 0" [src]='project.imageUrls[1]' alt='project.name'>
     </div>
     <div class= "col-md-12" *ngIf= 'project.mobile'>
         <div class= "col-md-12">
         <div class= "col-md-4">
+            <img class= "img-thumbnail backLeftImg" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[project.imageUrls.length - 1]" (click)= "modalImgIndex = 0" [src]='project.imageUrls[project.imageUrls.length - 1]' alt='project.name'>
+            
             <img class= "img-thumbnail" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[0]" (click)= "modalImgIndex = 0" [src]='project.imageUrls[0]' alt='project.name'>
         </div>
         <div class= "col-md-4">
@@ -48,20 +40,12 @@
         </div>
         <div class= "col-md-4">
             <img class= "img-thumbnail" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[2]" (click)= "modalImgIndex = 2" [src]='project.imageUrls[2]' alt='project.name'>
-        </div>
-        </div>
-        <div class= "col-md-12">
-        <div class= "col-md-4">
-            <img class= "img-thumbnail" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[3]" (click)= "modalImgIndex = 3" [src]='project.imageUrls[3]' alt='project.name'>
-        </div>
-        <div class= "col-md-4">
-            <img class= "img-thumbnail" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[4]" (click)= "modalImgIndex = 4" [src]='project.imageUrls[4]' alt='project.name'>
-        </div>
-        <div class= "col-md-4">
-            <img class= "img-thumbnail" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[5]" (click)= "modalImgIndex = 5" [src]='project.imageUrls[5]' alt='project.name'>
+            
+            <img class= "img-thumbnail backRightImg" id="myImg" (click)= "displayModal = !displayModal" (click)= "modalImg = project.imageUrls[3]" (click)= "modalImgIndex = 0" [src]='project.imageUrls[3]' alt='project.name'>
         </div>
         </div>
     </div>
+    
         <div class= "col-md-12 well">
             <h3 class= "text-primary">Where and Why?</h3>
             <p>{{ project.where_why }}</p>

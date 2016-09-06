@@ -13,6 +13,7 @@ export class ProjectDetailComponent implements OnInit {
     projectName: string = "Project Title Here";
     projectType: string;
     project: IProject;
+    numImages: number;
     errorMessage: string;
     modalImg: string = "app/assets/images/160x120.png";
     displayModal: boolean = false;
@@ -46,6 +47,7 @@ export class ProjectDetailComponent implements OnInit {
     
     getDisplay(): string {
         if( this.displayModal ) {
+            this.numImages = this.project.imageUrls.length;
             return "block";
         } else {
             return "none";
@@ -56,7 +58,7 @@ export class ProjectDetailComponent implements OnInit {
         if( this.modalImgIndex > 0 ) {
             this.modalImgIndex -= 1;
         } else {
-            this.modalImgIndex = this.project.imageUrls.length - 1;
+            this.modalImgIndex = this.numImages - 1;
         }
         this.modalImg = this.project.imageUrls[this.modalImgIndex];
     }

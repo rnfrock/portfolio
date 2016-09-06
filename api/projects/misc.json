@@ -6,12 +6,11 @@
         "shortDescription": "For an independent study course I created a Teensy powered piano, with buttons as inputs, speakers for the output, and an interface which also generated output by communicating with the Teensy board.",
         "where_why": "For my final course at UT I chose to do an independent study to further explore the capabilities of microcrontrollers. I met with a mentor each week to discuss the progress of the project and learn more about different approaches to my work. At the end of the course I wrote a scienctific paper about the research I had done and what techniques I had implemented throughout the semester.",
         "what_how": "At the beginning of the semester I spent a lot of time exploring tutorials and projects with the Arduino, since I was most familiar with this microcontroller. Then I shifted over to a Teensy, which was capable of better sound production. I wired buttons to the board to mimic a piano scale. The output was sent through an audio amplifier and out of a speaker. Using Processing- a Java based visual production software- I created a user interface of a piano that mapped to the buttons wired to the Teensy. I included a Serial library that allowed the Teensy and the Processing program to communicate to the same port. Then I made it where the production of each note would be as a result of a button being pressed or a key being clicked with a mouse through the interface.",
-        "imageUrls": [ "app/assets/images/misc/summer5.jpg",
-                       "app/assets/images/misc/summer3.jpg",
-                       "app/assets/images/misc/summer4.jpg",
-                       "app/assets/images/misc/summer1.png",
+        "imageUrls": [ "app/assets/images/misc/summer1.png",
                        "app/assets/images/misc/summer6.jpg",
-                       "app/assets/images/misc/summer2.jpg" 
+                       "app/assets/images/misc/summer3.jpg",
+                       "app/assets/images/misc/summer5.jpg",
+                       "app/assets/images/misc/summer4.jpg"
                      ],
         "mobile": false
     },
@@ -24,9 +23,7 @@
         "what_how": "The workshop began with each pair of students having an Arduino, an LED and the necessary wires and resistors to connect these items. Once the hardware was hooked up, students were instructed to program the lights to blink different colors. Once that task was complete then they were instructed to add another LED to the board. After the two LEDs were working properly, there was a station where the LEDs could be soldered to wires to suspend the LEDs above the Arduino boards. Origami flowers were placed around the LEDs and then all placed in a bordered box with green felt to create the appearance of a garden.",
         "imageUrls": [ "app/assets/images/misc/roboticFlowers.png",
                        "app/assets/images/160x120.png",
-                       "app/assets/images/160x120.png",
-                       "app/assets/images/160x120.png",
-                       "app/assets/images/160x120.png" 
+                       "app/assets/images/160x120.png"
                      ],
         "mobile": false
     },
@@ -38,8 +35,6 @@
         "where_why": "After attending the Grace Hopper Conference with a group of women in the Computer Science Department, we returned with goals for UTCS. One was to start a Makers Club, where students could play with Arduinos, circuits and other technology related items to create and innovate within a fun environment amoung their peers. I headed this goal and started planning workshops. The first one was hosted at the end of the Fall semester by the Department of Computer Science, who helped to get material for the activities.",
         "what_how": "For the first activity we created holographic illusions with CD cases. Using XACTO knives and box cutters, the cases were cut into four trapezoids. The pieces were then taped together to create a clear prism. The prisms could be placed on a phone screen while a video from YouTube played specifically for this project, creating the illusion of a hologram. Next, we created simple circuits out of LEDs, paperclips and cell batteries. This portion was pretty open ended. Boxes were provided so that students could create whatever they wanted for the circuit to be a part of. Lastly, we looked at how Arduinos worked with LEDs. We programmed a single LED with the board to end the workshop.",
         "imageUrls": [ "app/assets/images/misc/firstMakers.jpg",
-                       "app/assets/images/160x120.png",
-                       "app/assets/images/160x120.png",
                        "app/assets/images/160x120.png",
                        "app/assets/images/160x120.png"
                      ],

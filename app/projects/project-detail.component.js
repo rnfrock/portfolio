@@ -38,6 +38,7 @@ var ProjectDetailComponent = (function () {
     };
     ProjectDetailComponent.prototype.getDisplay = function () {
         if (this.displayModal) {
+            this.numImages = this.project.imageUrls.length;
             return "block";
         }
         else {
@@ -49,7 +50,7 @@ var ProjectDetailComponent = (function () {
             this.modalImgIndex -= 1;
         }
         else {
-            this.modalImgIndex = this.project.imageUrls.length - 1;
+            this.modalImgIndex = this.numImages - 1;
         }
         this.modalImg = this.project.imageUrls[this.modalImgIndex];
     };

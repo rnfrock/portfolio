@@ -47,7 +47,8 @@
 }
 
 img {
-    width: 95%;
+    /*width: 95%;*/
+    max-height: 600px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -69,6 +70,42 @@ h1 small {
     margin-top: 4%;
 }
 
+.backLeftImg {
+    position: absolute;
+    left: -100px;
+    top: 15px;
+    z-index: -2;
+    height: 90%;;
+    opacity: 0.7;
+}
+
+.backRightImg {
+    position: absolute;
+    right: -100px;
+    top: 15px;
+    z-index: -1;
+    height: 90%;
+    opacity: 0.7;
+}
+
+.backLeftImg2 {
+    position: absolute;
+    left: -100px;
+    top: 40px;
+    z-index: -2;
+    height: 80%;;
+    opacity: 0.7;
+}
+
+.backRightImg2 {
+    position: absolute;
+    right: -100px;
+    top: 40px;
+    z-index: -1;
+    height: 80%;
+    opacity: 0.7;
+}
+
 
 /* Style the Image Used to Trigger the Modal */
 #myImg {
@@ -78,6 +115,7 @@ h1 small {
 }
 
 #myImg:hover {opacity: 0.7;}
+
 
 /* The Modal (background) */
 .modal {
@@ -100,6 +138,7 @@ h1 small {
     display: block;
     /*width: 80%;*/
     height: 80%;
+    max-height:600px;
     width: auto;
     /*max-width: 700px;*/
 }
@@ -110,6 +149,9 @@ h1 small {
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
+    
+   /* -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    /*animation-direction: alternate;*/
 }
 
 @-webkit-keyframes zoom {
@@ -122,13 +164,20 @@ h1 small {
     to {transform:scale(1)}
 }
 
+.modalTitle {
+    position: absolute;
+    color: #bbb;
+    top: 8%;
+    left: 49%;
+}
+
 /* The Close Button */
 .close {
     position: absolute;
-    top: 20px;
+    top: 5%;
     right: 40px;
-    transition: 0.3s;
     font-size: 60px;
+    /*transition: 0.3s;*/ 
 }
 
 .close:hover,
